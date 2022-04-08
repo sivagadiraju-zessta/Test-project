@@ -8,3 +8,5 @@ const inputArr = [
     d: 4,
   },
 ];
+let Arr = Object.assign(...inputArr);
+console.log(Arr);
